@@ -277,7 +277,8 @@ def predict(request: PredictionRequest):
     # 7. Server-Side Evaluation (Confidential: reference geometry is NEVER returned to client)
     metrics_obj = None
     route_file = trip_dir / f"{trip_id}.route"
-    if route_file.exists():
+    # Evaluator reference routes are held out: do not inspect or load them during prediction.
+    if partition != "evaluator_test" and route_file.exists():
         try:
             # Server reads reference route for internal accuracy calculation only
             ref_trip = load_trip(DEFAULT_DATA_ROOT, partition, trip_id, with_route=True)

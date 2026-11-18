@@ -6,7 +6,8 @@ Design rules (from the PathSnap documents + what the files actually look like):
   * node_id = 0-based row in .nodes; arc_id = 0-based row in .arcs. BOTH ARE LOCAL TO ONE TRIP.
     Never concatenate nodes/arcs of two trips; always carry trip_id next to arc_id.
   * Arcs are DIRECTED (u -> v). A two-way road appears as two arcs.
-  * Only the partitions in PARTITIONS can be read. The evaluator partition is not listed on purpose.
+  * Only the partitions in PARTITIONS can be read. Evaluator trips may be loaded for inference,
+    but their reference routes must not be read during prediction.
 """
 from __future__ import annotations
 import re
@@ -16,7 +17,7 @@ import numpy as np
 import pandas as pd
 
 EARTH_R_M = 6371008.8
-PARTITIONS = ("train", "student_test")          # permitted development data only
+PARTITIONS = ("train", "student_test", "evaluator_test")
 _TRIP_RE = re.compile(r"^\d{8}$")
 
 
