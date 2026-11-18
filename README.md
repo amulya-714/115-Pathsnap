@@ -1,10 +1,6 @@
 # PathSnap: Distributed Map-Matching and Route Reconstruction
 
-[![Course](https://img.shields.io/badge/PES_University-UE24CS352A_Machine_Learning-1E3A8A.svg)](https://pes.edu)
-[![Python](https://img.shields.io/badge/Python-3.11_|_3.12_|_3.13-3776AB.svg?logo=python&logoColor=white)](https://python.org)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.163.2-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.67.0-FF4B4B.svg?logo=streamlit&logoColor=white)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-Academic_Evaluation-lightgrey.svg)]()
+
 
 ---
 
