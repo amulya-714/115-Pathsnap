@@ -1,0 +1,91 @@
+partition,trip_id,quality_flags
+train,00000001,1 gaps >= 5.0s; 340 jumps > 50.0 m/s; 175 weak components; 292 duplicate arcs; 8 zero-length arcs
+train,00000002,85 gaps >= 5.0s; 14 weak components; route has 1 disconnected steps
+train,00000003,42 weak components; 6 duplicate arcs; 4 zero-length arcs
+train,00000004,351 gaps >= 5.0s; 12 weak components; 5 duplicate arcs; 2 zero-length arcs
+train,00000005,4 jumps > 50.0 m/s; 3 weak components
+train,00000006,10 gaps >= 5.0s; 8 weak components
+train,00000008,1 jumps > 50.0 m/s; 13 weak components; 12 duplicate arcs; 1 repeated route arcs
+train,00000010,28 weak components; 7 duplicate arcs
+train,00000011,1 gaps >= 5.0s; 1 jumps > 50.0 m/s; 2 weak components
+train,00000012,5 jumps > 50.0 m/s; 22 weak components
+train,00000013,31 gaps >= 5.0s; 112 jumps > 50.0 m/s; 73 weak components; 129 duplicate arcs; 4 zero-length arcs
+train,00000014,12 gaps >= 5.0s; 12 weak components; 2 duplicate arcs
+train,00000016,28 weak components; 1 duplicate arcs
+train,00000018,10 weak components; 9 repeated route arcs
+train,00000019,2 jumps > 50.0 m/s; 90 weak components; 86 duplicate arcs; 10 zero-length arcs; route has 3 disconnected steps
+train,00000020,1 jumps > 50.0 m/s; 6 weak components
+train,00000021,2 gaps >= 5.0s; 3 weak components
+train,00000022,133 gaps >= 5.0s; 20 weak components; 4 duplicate arcs
+train,00000024,4 gaps >= 5.0s; 44 jumps > 50.0 m/s; 84 weak components; 102 duplicate arcs; 2 zero-length arcs
+train,00000025,1 jumps > 50.0 m/s; 34 weak components; 128 duplicate arcs; 4 zero-length arcs
+train,00000026,55 gaps >= 5.0s; 2 weak components; 2 duplicate arcs
+train,00000027,10 weak components
+train,00000028,8 gaps >= 5.0s; 20 jumps > 50.0 m/s; 30 weak components; 8 duplicate arcs
+train,00000029,22 weak components; 9 duplicate arcs
+train,00000031,5 jumps > 50.0 m/s; 67 weak components; 4 duplicate arcs; 4 zero-length arcs
+train,00000032,25 gaps >= 5.0s; 889 jumps > 50.0 m/s; 126 weak components; 80 duplicate arcs; 1 zero-length arcs
+train,00000033,3 jumps > 50.0 m/s; 7 weak components; 2 duplicate arcs; route has 1 disconnected steps
+train,00000034,21 gaps >= 5.0s; 23 weak components; 4 duplicate arcs; 2 zero-length arcs
+train,00000035,119 weak components; 38 duplicate arcs; 2 zero-length arcs
+train,00000036,12 weak components
+train,00000037,11 gaps >= 5.0s; 14 weak components; 2 duplicate arcs; 2 zero-length arcs
+train,00000038,16 gaps >= 5.0s; 1 jumps > 50.0 m/s; 77 weak components; 1 duplicate arcs; 2 zero-length arcs
+train,00000039,70 gaps >= 5.0s; 3 weak components
+train,00000041,2 gaps >= 5.0s; 11 weak components; 2 duplicate arcs; 1 zero-length arcs; route has 1 disconnected steps
+train,00000042,47 gaps >= 5.0s; 1 jumps > 50.0 m/s; 73 weak components; route has 1 disconnected steps
+train,00000043,3 gaps >= 5.0s; 34 jumps > 50.0 m/s; 421 weak components; 322 duplicate arcs; 4 zero-length arcs
+train,00000044,2 gaps >= 5.0s; 12 weak components; 2 duplicate arcs
+train,00000045,1 jumps > 50.0 m/s; 3 weak components
+train,00000046,27 gaps >= 5.0s; 2 weak components
+train,00000047,24 weak components; 27 duplicate arcs; 2 zero-length arcs
+train,00000048,5 weak components
+train,00000050,10 weak components; 2 duplicate arcs
+train,00000051,10 weak components
+train,00000053,1 gaps >= 5.0s; 7 jumps > 50.0 m/s; 43 weak components; 28 duplicate arcs; 3 zero-length arcs
+train,00000054,7 gaps >= 5.0s; 1 jumps > 50.0 m/s; 213 weak components; 96 duplicate arcs; 2 zero-length arcs
+train,00000055,1 gaps >= 5.0s; 18 jumps > 50.0 m/s; 48 weak components; 12 duplicate arcs; 14 zero-length arcs
+train,00000057,2 gaps >= 5.0s; 1 jumps > 50.0 m/s; 11 weak components; 1 duplicate arcs; 2 zero-length arcs
+train,00000058,10 gaps >= 5.0s; 19 weak components; 15 duplicate arcs
+train,00000060,14 gaps >= 5.0s; 1 jumps > 50.0 m/s; 28 weak components; 2 duplicate arcs
+train,00000061,9 weak components; 8 duplicate arcs
+train,00000062,34 gaps >= 5.0s; 1 jumps > 50.0 m/s; 74 weak components; 17 duplicate arcs
+train,00000063,1 jumps > 50.0 m/s; 10 duplicate arcs
+train,00000064,2 jumps > 50.0 m/s; 28 weak components; 4 duplicate arcs; 2 zero-length arcs
+train,00000066,1 jumps > 50.0 m/s; 12 weak components
+train,00000068,1 gaps >= 5.0s; 19 weak components
+train,00000069,2 gaps >= 5.0s; 7 weak components; route has 1 disconnected steps; 29 repeated route arcs
+train,00000070,1 gaps >= 5.0s; 3 weak components
+train,00000071,36 gaps >= 5.0s; 1 jumps > 50.0 m/s; 12 weak components
+train,00000072,6 weak components; 2 duplicate arcs
+train,00000074,10 gaps >= 5.0s; 1 jumps > 50.0 m/s; 118 weak components; 96 duplicate arcs; 5 zero-length arcs
+train,00000075,8 weak components; route has 2 disconnected steps; 2 repeated route arcs
+train,00000078,180 gaps >= 5.0s; 1 jumps > 50.0 m/s; 62 weak components; 38 duplicate arcs; 2 zero-length arcs
+train,00000079,3 jumps > 50.0 m/s; 63 weak components; 27 duplicate arcs; 5 zero-length arcs
+train,00000080,19 gaps >= 5.0s; 10 weak components; 10 duplicate arcs; route has 1 disconnected steps
+train,00000081,154 gaps >= 5.0s; 8 weak components; 6 duplicate arcs
+train,00000082,1 jumps > 50.0 m/s; 41 weak components; 2 duplicate arcs
+train,00000083,1 jumps > 50.0 m/s; 24 weak components; 3 duplicate arcs
+train,00000084,4 gaps >= 5.0s; 26 weak components; 13 duplicate arcs; 2 zero-length arcs; 2 repeated route arcs
+train,00000085,8 gaps >= 5.0s; 2 jumps > 50.0 m/s; 2 weak components
+train,00000086,1 jumps > 50.0 m/s; 193 weak components; 63 duplicate arcs; 2 zero-length arcs; route has 1 disconnected steps; 2 repeated route arcs
+train,00000088,12 gaps >= 5.0s; 29 weak components; 2 duplicate arcs
+train,00000089,17 gaps >= 5.0s; 24 weak components; route has 1 disconnected steps
+train,00000090,21 gaps >= 5.0s; 20 weak components; 1 repeated route arcs
+train,00000092,4 jumps > 50.0 m/s; 46 weak components; 4 duplicate arcs; 2 zero-length arcs; 14 repeated route arcs
+train,00000093,1 gaps >= 5.0s; 3 jumps > 50.0 m/s; 32 weak components; 17 duplicate arcs
+train,00000095,7 weak components; 7 repeated route arcs
+train,00000096,3 jumps > 50.0 m/s; 18 weak components; 3 duplicate arcs; 3 zero-length arcs
+train,00000097,27 weak components
+train,00000098,15 gaps >= 5.0s; 5 jumps > 50.0 m/s; 20 weak components; 10 duplicate arcs
+train,00000099,1 gaps >= 5.0s; 48 weak components; 7 duplicate arcs; 2 zero-length arcs
+student_test,00000000,2 jumps > 50.0 m/s; 100 weak components; 6 duplicate arcs
+student_test,00000007,6 weak components
+student_test,00000009,8 weak components; 62 duplicate arcs; 2 zero-length arcs
+student_test,00000040,3 jumps > 50.0 m/s; 15 weak components
+student_test,00000052,7 weak components; 2 duplicate arcs
+student_test,00000056,3 jumps > 50.0 m/s; 24 weak components; 22 duplicate arcs; 255 repeated route arcs
+student_test,00000065,7 gaps >= 5.0s; 5 weak components; 4 duplicate arcs
+student_test,00000076,41 gaps >= 5.0s; 40 weak components; 29 duplicate arcs; route has 1 disconnected steps
+student_test,00000077,11 weak components; 2 zero-length arcs
+student_test,00000091,11 weak components; 3 duplicate arcs; 2 zero-length arcs

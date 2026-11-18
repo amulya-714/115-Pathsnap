@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data & temporary caches
+out/
+maps/
+*.tmp
+*.log
+
+# Raw datasets (keep large datasets external to repository)
+Student folder/
+Student folder.zip
+PathSnap_student_materials/
+*.zip
+*.tar.gz
+
+# Evaluator testing confidential ground truth
+evaluator_test/
+evaluator_ground_truth/
+private_evaluator/
+.env
+credentials.json
