@@ -19,9 +19,10 @@ from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.middleware.cors import CORSMiddleware
 from sklearn.metrics import f1_score
 
-# Add data_processing, models, and hmm to path
+# Add backend, data_processing, models, and hmm to path
 BACKEND_DIR = Path(__file__).resolve().parent
 REPO_ROOT = BACKEND_DIR.parent
+sys.path.insert(0, str(BACKEND_DIR))
 sys.path.insert(0, str(REPO_ROOT / "data_processing"))
 sys.path.insert(0, str(REPO_ROOT / "models"))
 sys.path.insert(0, str(REPO_ROOT / "hmm"))

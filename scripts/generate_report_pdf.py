@@ -419,7 +419,7 @@ def build_pdf():
     story.append(Paragraph(
         "<b>Two-Laptop Execution Verification:</b><br/>"
         "1. Laptop 1 command: `uvicorn backend.main:app --host 0.0.0.0 --port 8000`<br/>"
-        "2. Laptop 2 verification: `curl -X POST http://<Laptop_1_IP>:8000/predict -H 'Content-Type: application/json' -d '{\"trip_id\": \"00000000\"}'`<br/>"
+        "2. Laptop 2 verification: `curl -X POST http://&lt;Laptop_1_IP&gt;:8000/predict -H 'Content-Type: application/json' -d '{\"trip_id\": \"00000000\"}'`<br/>"
         "3. Live Server-Side Response: Returns predicted route coordinates, timing breakdown (P1: 158 ms, P2: 42 ms, P3: 186 ms), and evaluation metrics without revealing ground truth geometry.",
         body_style
     ))
